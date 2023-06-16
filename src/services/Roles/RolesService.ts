@@ -1,7 +1,6 @@
 require("dotenv").config();
 import { PartialUser, User, MessageReaction, PartialMessageReaction, Guild, GuildMember, PartialGuildMember } from "discord.js";
 import LoggingService from "../Logging/LoggingService";
-
 export class RolesService {
     private static instance: RolesService;
 
