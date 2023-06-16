@@ -6,7 +6,7 @@ export class RolesService {
 
     private MESSAGE_ID: string = process.env.ROLES_MESSAGE_ID || "";
     private DEFAULT_ROLE_ID: string = process.env.DEFAULT_ROLE_ID || "";
-    private roleMapping: Record<string, string> = require("../../config.json");
+    private roleMapping: Record<string, string> = require("../../../config.json");
     private LOGGER: LoggingService;
 
     public constructor() {
